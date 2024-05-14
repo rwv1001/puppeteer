@@ -2,6 +2,7 @@ FROM node:latest as build-stage
 
 RUN apt update
 RUN apt-get install chromium -y
+RUN apt-get install alsa-utils -y
 #RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 #RUN dpkg -i google-chrome-stable_current_amd64.deb; apt-get -fy install
 #RUN apt-get install chromium-browser
@@ -28,7 +29,7 @@ RUN npm install
 
 COPY . ./
 
-EXPOSE 4000
+COPY alsa.conf /usr/share/alsa/alsa.conf
 
 # Give app user access to all the project folder
 RUN chown -R app:app /home/app
@@ -37,4 +38,4 @@ RUN chmod -R 777 /home/app
 
 #USER app
 
-CMD ["npm", "start"]
+CMD ["node", "serverCall.js"]

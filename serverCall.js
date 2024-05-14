@@ -28,7 +28,7 @@ function wait(time) {
 
 //    const url = 'https://192.168.1.47:8181'
 
-   const url = 'https://test.cambdoorbell.duckdns.org'
+   const url = 'https://cambdoorbell.duckdns.org'
 //  const url = 'chrome://settings/content/camera'
 //   const url = 'chrome://settings/content/microphone'  
 
@@ -54,18 +54,15 @@ function wait(time) {
   console.log('clicking')
 
   await wait(10000)
-  await page.screenshot({
-     path: '/home/pi/vue3-doorbell-receiver/src/assets/screenshot.jpg'
-  });
-  console.log('taking screenshot');
-  await wait( 300000)
-//  const results = await page.$$eval('.label', rows => {
-//     return rows;
-//  })
+//  await page.screenshot({
+//     path: '/home/pi/vue3-doorbell-receiver/src/assets/screenshot.jpg'
+//  });
+//  console.log('taking screenshot');
+//  await wait( 300000)
   
   // Print the full title
 //  console.log(results);
-  console.log('closing browser')
-  await browser.close();
-  writeStream.end();
+//  console.log('closing browser')
+//  await browser.close();
+//  writeStream.end();
 })();

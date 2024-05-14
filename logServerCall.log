@@ -1,7 +1,7 @@
 Initiating Intercom Call
-intercomCallConst userName = ed69532a-9be1-4656-8d68-33509648c102
+intercomCallConst userName = 487e59a2-9bf8-4000-b5f9-c877d2186818
 getting user media
-current time: 10:11:52, beat timeDiff: 2463, heartbeatcount = 1
+current time: 15:09:08, beat timeDiff: 3478, heartbeatcount = 1
 Setting local Streat
 Let's add some tracks to local stream
 Adding a track to local stream
@@ -17,7 +17,7 @@ createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
 ........Ice candidate found!......
 JSHandle@object
 createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
-current time: 10:11:54, beat timeDiff: 3463, heartbeatcount = 2
+current time: 15:09:10, beat timeDiff: 2478, heartbeatcount = 2
 ........Ice candidate found!......
 JSHandle@object
 createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
@@ -32,27 +32,28 @@ JSHandle@object
 createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
 ........Ice candidate found!......
 JSHandle@object
-current time: 10:11:56, beat timeDiff: 2463, heartbeatcount = 3
-current time: 10:11:58, beat timeDiff: 3463, heartbeatcount = 4
-received_message list, uuid = aa96d3a6-5999-4d3b-a7d3-11d30196d25c
+current time: 15:09:12, beat timeDiff: 3478, heartbeatcount = 3
+current time: 15:09:14, beat timeDiff: 2478, heartbeatcount = 4
+current time: 15:09:16, beat timeDiff: 3478, heartbeatcount = 5
+current time: 15:09:18, beat timeDiff: 2478, heartbeatcount = 6
+received_message list, uuid = c5bbd676-6a0c-47c9-aff3-250b20764a3d
 current_message_uuid = 0
 mp3_message_to_browser = 1-RequestMsg-195699.mp3
 user generator is 0, and current UserID is 1
 Try to play the mp3: https://assets.cambdoorbell.duckdns.org/assets/1-RequestMsg-195699.mp3
 unable to play 1-RequestMsg-195699.mp3. this.soundAlertStatus = false
-current time: 10:12:00, beat timeDiff: 3463, heartbeatcount = 5
-client id is: ed69532a-9be1-4656-8d68-33509648c102
-intercom client id is: b31e51de-1e6e-4515-9aff-1419d30b9d36
-received_message list, uuid = 1fd116d8-f3f1-442c-b81a-be2d9b36f2e9
-current_message_uuid = aa96d3a6-5999-4d3b-a7d3-11d30196d25c
-mp3_message_to_browser = 2-IntercomMsg-144663.mp3
-user generator is 2, and current UserID is 1
-Try to play the mp3: https://assets.cambdoorbell.duckdns.org/assets/2-IntercomMsg-144663.mp3
-unable to play 2-IntercomMsg-144663.mp3. this.soundAlertStatus = false
-current time: 10:12:02, beat timeDiff: 3449, heartbeatcount = 6
+Timer stopped
+current time: 15:09:20, beat timeDiff: 3478, heartbeatcount = 7
+current time: 15:09:22, beat timeDiff: 3478, heartbeatcount = 8
+client id is: 487e59a2-9bf8-4000-b5f9-c877d2186818
+intercom client id is: e3eaffb6-772e-47ca-ab4a-caed903aaccf
+received_message list, uuid = 3a99f49b-9a35-45bf-97a3-ac8b5b5922fd
+current_message_uuid = c5bbd676-6a0c-47c9-aff3-250b20764a3d
+mp3_message_to_browser = 3-IntercomMsg-660091.mp3
+user generator is 3, and current UserID is 1
+Try to play the mp3: https://assets.cambdoorbell.duckdns.org/assets/3-IntercomMsg-660091.mp3
+unable to play 3-IntercomMsg-660091.mp3. this.soundAlertStatus = false
 Handling answerResponse
-JSHandle@object
-*********** Handling receivedIceCandidateFromServer ******************
 JSHandle@object
 JSHandle@object
 stable
@@ -71,21 +72,14 @@ JSHandle@object
 JSHandle@object
 *********** Handling receivedIceCandidateFromServer ******************
 JSHandle@object
-Timer stopped
-current time: 10:12:04, beat timeDiff: 3463, heartbeatcount = 7
-current time: 10:12:06, beat timeDiff: 3463, heartbeatcount = 8
-current time: 10:12:08, beat timeDiff: 3463, heartbeatcount = 9
-current time: 10:12:10, beat timeDiff: 3463, heartbeatcount = 10
-current time: 10:12:12, beat timeDiff: 3463, heartbeatcount = 11
-current time: 10:12:14, beat timeDiff: 3463, heartbeatcount = 12
-current time: 10:12:16, beat timeDiff: 3463, heartbeatcount = 13
-current time: 10:12:18, beat timeDiff: 3463, heartbeatcount = 14
-current time: 10:12:20, beat timeDiff: 3463, heartbeatcount = 15
-current time: 10:12:22, beat timeDiff: 3463, heartbeatcount = 16
-current time: 10:12:24, beat timeDiff: 3462, heartbeatcount = 17
-current time: 10:12:26, beat timeDiff: 3463, heartbeatcount = 18
+*********** Handling receivedIceCandidateFromServer ******************
+JSHandle@object
+current time: 15:09:24, beat timeDiff: 3478, heartbeatcount = 9
+current time: 15:09:26, beat timeDiff: 3478, heartbeatcount = 10
+current time: 15:09:28, beat timeDiff: 3477, heartbeatcount = 11
+current time: 15:09:30, beat timeDiff: 3478, heartbeatcount = 12
 Handling resetOffer
-intercomCallConst userName = ed69532a-9be1-4656-8d68-33509648c102
+intercomCallConst userName = 487e59a2-9bf8-4000-b5f9-c877d2186818
 getting user media
 Setting local Streat
 Let's add some tracks to local stream
@@ -116,34 +110,18 @@ JSHandle@object
 createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
 ........Ice candidate found!......
 JSHandle@object
-client id is: ed69532a-9be1-4656-8d68-33509648c102
+client id is: 487e59a2-9bf8-4000-b5f9-c877d2186818
 intercom client id is: 0
-current time: 10:12:28, beat timeDiff: 3463, heartbeatcount = 19
-current time: 10:12:30, beat timeDiff: 3463, heartbeatcount = 20
-current time: 10:12:32, beat timeDiff: 3463, heartbeatcount = 21
-current time: 10:12:34, beat timeDiff: 3463, heartbeatcount = 22
-current time: 10:12:36, beat timeDiff: 3463, heartbeatcount = 23
+current time: 15:09:32, beat timeDiff: 3478, heartbeatcount = 13
+current time: 15:09:34, beat timeDiff: 3478, heartbeatcount = 14
+current time: 15:09:36, beat timeDiff: 3478, heartbeatcount = 15
+current time: 15:09:38, beat timeDiff: 3478, heartbeatcount = 16
+current time: 15:09:40, beat timeDiff: 3478, heartbeatcount = 17
 Timer stopped
-current time: 10:12:38, beat timeDiff: 3463, heartbeatcount = 24
-current time: 10:12:40, beat timeDiff: 3463, heartbeatcount = 25
-current time: 10:12:42, beat timeDiff: 3463, heartbeatcount = 26
-current time: 10:12:44, beat timeDiff: 3463, heartbeatcount = 27
-current time: 10:12:46, beat timeDiff: 3463, heartbeatcount = 28
-current time: 10:12:48, beat timeDiff: 3463, heartbeatcount = 29
-current time: 10:12:50, beat timeDiff: 3463, heartbeatcount = 30
-current time: 10:12:52, beat timeDiff: 3463, heartbeatcount = 31
-current time: 10:12:54, beat timeDiff: 3463, heartbeatcount = 32
-current time: 10:12:56, beat timeDiff: 3463, heartbeatcount = 33
-current time: 10:12:58, beat timeDiff: 3463, heartbeatcount = 34
-current time: 10:13:00, beat timeDiff: 3463, heartbeatcount = 35
-received_message list, uuid = 0
-current_message_uuid = 1fd116d8-f3f1-442c-b81a-be2d9b36f2e9
-mp3_message_to_browser = 
-user generator is 0, and current UserID is 1
-current time: 10:13:02, beat timeDiff: 3463, heartbeatcount = 36
-current time: 10:13:04, beat timeDiff: 2463, heartbeatcount = 37
-current time: 10:13:06, beat timeDiff: 3463, heartbeatcount = 38
-current time: 10:13:08, beat timeDiff: 2463, heartbeatcount = 39
-current time: 10:13:10, beat timeDiff: 3463, heartbeatcount = 40
-current time: 10:13:12, beat timeDiff: 2463, heartbeatcount = 41
-current time: 10:13:14, beat timeDiff: 3463, heartbeatcount = 42
+current time: 15:09:42, beat timeDiff: 3478, heartbeatcount = 18
+current time: 15:09:44, beat timeDiff: 3478, heartbeatcount = 19
+current time: 15:09:46, beat timeDiff: 3478, heartbeatcount = 20
+current time: 15:09:48, beat timeDiff: 3478, heartbeatcount = 21
+current time: 15:09:50, beat timeDiff: 3478, heartbeatcount = 22
+current time: 15:09:52, beat timeDiff: 3478, heartbeatcount = 23
+current time: 15:09:54, beat timeDiff: 3478, heartbeatcount = 24
