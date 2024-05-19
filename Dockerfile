@@ -37,5 +37,6 @@ RUN chown -R app:app /home/app
 RUN chmod -R 777 /home/app
 
 #USER app
+ENV NODE_ENV=production
 
 CMD ["node", "serverCall.js"]

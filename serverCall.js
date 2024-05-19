@@ -1,5 +1,10 @@
 import puppeteer from 'puppeteer';
 import * as fs  from 'fs';
+if (process.env.NODE_ENV === 'production') {
+  console.log = function () {}; // Disable console.log
+}
+const TIME_OUT = 20000;
+
 
 function wait(time) {
   return new Promise(function (resolve) {
@@ -9,6 +14,9 @@ function wait(time) {
 (async () => {
   // Launch the browser and open a new blank page
   const writeStream = fs.createWriteStream('logServerCall.log', { flags: 'w' });
+
+  while(true){
+  console.log('Task executed every ' + TIME_OUT/1000 + ' seconds');
   const browser = await puppeteer.launch({
     headless: true,
     ignoreHTTPSErrors: true,
@@ -21,7 +29,8 @@ function wait(time) {
        "--allowAutoCapture",
        "--use-fake-ui-for-media-stream"
     ],
-    executablePath: '/usr/bin/chromium'
+      executablePath: '/usr/bin/chromium-browser'
+//      executablePath: '/usr/local/bin/firefox'
   });
   const page = await browser.newPage();
 //  await page.setViewport({ width: 1280, height: 720 });
@@ -53,7 +62,7 @@ function wait(time) {
   await page.$eval('.call-div', el => el.click());
   console.log('clicking')
 
-  await wait(10000)
+  await wait(TIME_OUT)
 //  await page.screenshot({
 //     path: '/home/pi/vue3-doorbell-receiver/src/assets/screenshot.jpg'
 //  });
@@ -63,6 +72,7 @@ function wait(time) {
   // Print the full title
 //  console.log(results);
 //  console.log('closing browser')
-//  await browser.close();
+  await browser.close();
+  }
 //  writeStream.end();
 })();
