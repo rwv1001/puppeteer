@@ -1,0 +1,125 @@
+Initiating Intercom Call
+intercomCallConst userName = a510ac30-0205-476d-a12c-5aa1f8764c58
+getting user media
+current time: 18:11:22, beat timeDiff: 3199, heartbeatcount = 1
+Setting local Streat
+Let's add some tracks to local stream
+Adding a track to local stream
+Creating offer...
+JSHandle@object
+Sending newOffer
+JSHandle@object
+have-local-offer
+Handling sendOfferAcknowledgment
+........Ice candidate found!......
+JSHandle@object
+createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
+........Ice candidate found!......
+JSHandle@object
+createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
+current time: 18:11:24, beat timeDiff: 3200, heartbeatcount = 2
+........Ice candidate found!......
+JSHandle@object
+createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
+........Ice candidate found!......
+JSHandle@object
+createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
+........Ice candidate found!......
+JSHandle@object
+createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
+........Ice candidate found!......
+JSHandle@object
+current time: 18:11:26, beat timeDiff: 3200, heartbeatcount = 3
+current time: 18:11:28, beat timeDiff: 3200, heartbeatcount = 4
+current time: 18:11:30, beat timeDiff: 3200, heartbeatcount = 5
+current time: 18:11:32, beat timeDiff: 3200, heartbeatcount = 6
+Timer stopped
+current time: 18:11:34, beat timeDiff: 3200, heartbeatcount = 7
+current time: 18:11:36, beat timeDiff: 3199, heartbeatcount = 8
+current time: 18:11:38, beat timeDiff: 3200, heartbeatcount = 9
+current time: 18:11:40, beat timeDiff: 3199, heartbeatcount = 10
+current time: 18:11:42, beat timeDiff: 3200, heartbeatcount = 11
+current time: 18:11:44, beat timeDiff: 3200, heartbeatcount = 12
+current time: 18:11:46, beat timeDiff: 3200, heartbeatcount = 13
+current time: 18:11:48, beat timeDiff: 3200, heartbeatcount = 14
+current time: 18:11:50, beat timeDiff: 3200, heartbeatcount = 15
+current time: 18:11:52, beat timeDiff: 3199, heartbeatcount = 16
+current time: 18:11:54, beat timeDiff: 3200, heartbeatcount = 17
+current time: 18:11:56, beat timeDiff: 3200, heartbeatcount = 18
+playfile, Try to play the mp3: https://assets.cambdoorbell.duckdns.org/assets/1-WaitMsg-429765.mp3, offerer = true
+received_message list, uuid = d47755bd-c31f-448b-94ba-1cb7138dac06
+current_message_uuid = 0
+mp3_message_to_browser = 1-RequestMsg-753533.mp3
+user generator is 0, and current UserID is 1
+Try to play the mp3: https://assets.cambdoorbell.duckdns.org/assets/1-RequestMsg-753533.mp3
+unable to play 1-RequestMsg-753533.mp3. this.soundAlertStatus = false
+current time: 18:11:58, beat timeDiff: 3200, heartbeatcount = 19
+current time: 18:12:00, beat timeDiff: 3199, heartbeatcount = 20
+client id is: a510ac30-0205-476d-a12c-5aa1f8764c58
+intercom client id is: 9cb81d2c-497c-45ca-b374-a643d51fc02d
+received_message list, uuid = e1cffc7b-2ef1-495e-85da-7153d229ad65
+current_message_uuid = d47755bd-c31f-448b-94ba-1cb7138dac06
+mp3_message_to_browser = 3-IntercomMsg-526790.mp3
+user generator is 3, and current UserID is 1
+Try to play the mp3: https://assets.cambdoorbell.duckdns.org/assets/3-IntercomMsg-526790.mp3
+unable to play 3-IntercomMsg-526790.mp3. this.soundAlertStatus = false
+Handling answerResponse
+JSHandle@object
+*********** Handling receivedIceCandidateFromServer ******************
+JSHandle@object
+JSHandle@object
+stable
+Got a track from the other peer!! How excting
+JSHandle@object
+*******************  Here's an exciting moment... fingers cross ****************************
+answerResponseConst peerConnection:
+JSHandle@object
+current time: 18:12:02, beat timeDiff: 3200, heartbeatcount = 21
+current time: 18:12:04, beat timeDiff: 3200, heartbeatcount = 22
+Handling resetOffer
+intercomCallConst userName = a510ac30-0205-476d-a12c-5aa1f8764c58
+getting user media
+Setting local Streat
+Let's add some tracks to local stream
+Adding a track to local stream
+Creating offer...
+JSHandle@object
+Sending newOffer
+JSHandle@object
+have-local-offer
+Handling sendOfferAcknowledgment
+........Ice candidate found!......
+JSHandle@object
+createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
+........Ice candidate found!......
+JSHandle@object
+createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
+........Ice candidate found!......
+JSHandle@object
+createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
+........Ice candidate found!......
+JSHandle@object
+createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
+........Ice candidate found!......
+JSHandle@object
+createPeerConnection: Emit sendIceCandidateToSignalingServer, didIOffer = true
+........Ice candidate found!......
+JSHandle@object
+client id is: a510ac30-0205-476d-a12c-5aa1f8764c58
+intercom client id is: 0
+current time: 18:12:06, beat timeDiff: 3200, heartbeatcount = 23
+current time: 18:12:08, beat timeDiff: 3200, heartbeatcount = 24
+received_message list, uuid = c09add6d-1706-4f00-9782-17b08e18933f
+current_message_uuid = e1cffc7b-2ef1-495e-85da-7153d229ad65
+mp3_message_to_browser = 3-ResponseMsg-172503.mp3
+user generator is 3, and current UserID is 1
+Try to play the mp3: https://assets.cambdoorbell.duckdns.org/assets/3-ResponseMsg-172503.mp3
+unable to play 3-ResponseMsg-172503.mp3. this.soundAlertStatus = false
+playfile, Try to play the mp3: https://assets.cambdoorbell.duckdns.org/assets/3-ReplyMsg-567113.mp3, offerer = true
+current time: 18:12:10, beat timeDiff: 3200, heartbeatcount = 25
+current time: 18:12:12, beat timeDiff: 3199, heartbeatcount = 26
+current time: 18:12:14, beat timeDiff: 3200, heartbeatcount = 27
+Timer stopped
+current time: 18:12:16, beat timeDiff: 3200, heartbeatcount = 28
+current time: 18:12:18, beat timeDiff: 3200, heartbeatcount = 29
+current time: 18:12:20, beat timeDiff: 3200, heartbeatcount = 30

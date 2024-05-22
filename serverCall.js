@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer';
 import * as fs  from 'fs';
 if (process.env.NODE_ENV === 'production') {
-  console.log = function () {}; // Disable console.log
+//  console.log = function () {}; // Disable console.log
 }
 const TIME_OUT = 20000;
 
@@ -15,8 +15,6 @@ function wait(time) {
   // Launch the browser and open a new blank page
   const writeStream = fs.createWriteStream('logServerCall.log', { flags: 'w' });
 
-  while(true){
-  console.log('Task executed every ' + TIME_OUT/1000 + ' seconds');
   const browser = await puppeteer.launch({
     headless: true,
     ignoreHTTPSErrors: true,
@@ -29,7 +27,7 @@ function wait(time) {
        "--allowAutoCapture",
        "--use-fake-ui-for-media-stream"
     ],
-      executablePath: '/usr/bin/chromium-browser'
+      executablePath: '/usr/bin/chromium'
 //      executablePath: '/usr/local/bin/firefox'
   });
   const page = await browser.newPage();
@@ -72,7 +70,5 @@ function wait(time) {
   // Print the full title
 //  console.log(results);
 //  console.log('closing browser')
-  await browser.close();
-  }
 //  writeStream.end();
 })();
